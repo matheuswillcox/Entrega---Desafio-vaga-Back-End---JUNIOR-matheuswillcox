@@ -13,7 +13,7 @@ source venv/bin/activate
 
 pip install djangorestframework black ipdb pycodestyle
 
-pip freeze > requirements.txt
+pip install -r requirements.txt
 
 python3 manage.py makemigrations
 
